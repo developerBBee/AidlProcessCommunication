@@ -17,5 +17,20 @@
         android:onClick="onClick"
         android:text="un bind"/>
 
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+
+    <Button
+        android:id="@+id/getRecent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="get recent"/>
+
+    <ListView
+        android:id="@+id/listViewRecent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
 </LinearLayout>
